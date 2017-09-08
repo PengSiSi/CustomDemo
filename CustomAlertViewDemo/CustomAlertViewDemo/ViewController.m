@@ -11,6 +11,7 @@
 #import "CustomAlertView.h"
 #import "FilterViewController.h"
 #import "DropSelectMenuViewController.h"
+#import "CellSwipeOutViewController.h"
 
 #import <RESideMenu.h>
 
@@ -147,5 +148,10 @@
     [self.navigationController pushViewController:dropSelectMenuVc animated:YES];
 }
 
+
+- (IBAction)CellSwipeOutDemo:(id)sender {
+    
+    [self.navigationController pushViewController:[CellSwipeOutViewController new] animated:YES];
+}
 
 @end

@@ -1,0 +1,112 @@
+//
+//  CellSwipeOutViewController.m
+//  CustomAlertViewDemo
+//
+//  Created by 思 彭 on 2017/9/8.
+//  Copyright © 2017年 思 彭. All rights reserved.
+//
+
+#import "CellSwipeOutViewController.h"
+
+@interface CellSwipeOutViewController ()<UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) UITableView *tableView;
+
+@end
+
+@implementation CellSwipeOutViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self setUI];
+}
+
+#pragma mark - 设置界面
+
+- (void)setUI {
+    
+    self.tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    self.tableView.backgroundColor = [UIColor clearColor];
+    self.tableView.tableFooterView = [[UIView alloc]init];
+    // 注册cell
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    [self.view addSubview: self.tableView];
+}
+
+#pragma mark - UITableViewDataSource
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
+    return 20;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.textLabel.font = [UIFont systemFontOfSize:15];
+    cell.textLabel.text = [NSString stringWithFormat:@"思思---%ld", indexPath.row];
+    return cell;
+}
+
+#pragma mark - UITableViewDelegate
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    
+    return FLT_EPSILON;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    
+    return 0.0001f;
+}
+
+#pragma mark - 滑动删除
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    return YES;
+}
+
+- (NSArray *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UITableViewRowAction *action0 = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleNormal title:@"删除" handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
+        NSLog(@"点击了删除。。。");
+        
+        // 收回左滑出现的按钮(退出编辑模式)
+        tableView.editing = NO;
+    }];
+    if (indexPath.row % 2 == 0) {
+        
+        action0.backgroundColor = [UIColor greenColor];
+    } else {
+        action0.backgroundColor = [UIColor lightGrayColor];
+    }
+    
+//    UITableViewRowAction *action1 = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDefault title:@"默认" handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
+//        NSLog(@"点击了默认的。。。");
+//        
+//        // 收回左滑出现的按钮(退出编辑模式)
+//        tableView.editing = NO;
+//    }];
+    
+//    UITableViewRowAction *action2 = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive title:@"确定" handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
+//        NSLog(@"点击了确定的。。。");
+//        
+//        // 收回左滑出现的按钮(退出编辑模式)
+//        tableView.editing = NO;
+//    }];
+
+    return @[action0];
+}
+
+@end
