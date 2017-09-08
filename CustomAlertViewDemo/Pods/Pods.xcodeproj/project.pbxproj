@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B48B4B955EA0633E4795A954A764ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		2977FC474CC1DBA839151F84C9D50B00 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FD59457AF9B8E39F3893328C540408 /* UIViewController+RESideMenu.m */; };
+		3C11D787540C45EF745438D16D8E86EC /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7E9F16B2AA98734172037E463643C9 /* RECommonFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44B9315890BDEB9652F24C088204D879 /* Pods-CustomAlertViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 009B93B87782AC58535B0AEC7D3EAAC5 /* Pods-CustomAlertViewDemo-dummy.m */; };
+		4842A3F02BE9B73C2B0D20C3587125B4 /* UIViewController+RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DC9B3732C2ADAE686612F8AAD8CD35 /* UIViewController+RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4861B8060B5BB0B78A1F060FD2D59545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		508DF75C4ED25429B5E3561801CE9D4A /* Pods-CustomAlertViewDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6282F081F4EBD5712CB21DA74C9335 /* Pods-CustomAlertViewDemoTests-dummy.m */; };
+		5BF72038E168D525430A0714EEA2F012 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CA8B732F5BDFC0EAE884FCB2248340 /* RESideMenu.m */; };
+		6460D49FA2724B3FA74CB339F2499AB0 /* RESideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6D08148AE98B6553EF9721FB4F3AC /* RESideMenu-dummy.m */; };
+		679721B14D42C3AC39289C09CF9E0A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		8C5148BF971F00EE9CC819DDBA2407E0 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C89622E224947A15030C562F990416B /* RECommonFunctions.m */; };
+		9C0EF2D68D0CD56CF6A9360A99D0306F /* Pods-CustomAlertViewDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B085BD521F382BC7DA9644DB4D7602 /* Pods-CustomAlertViewDemoUITests-dummy.m */; };
+		DCDF2682508A833D0B516ECBCE66E3C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
+		F1EE1187770168F08AAE847E2A3A7B18 /* RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 81578034A7B1E40B9EBA575F3999E8C6 /* RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F99B4BB128FE1FB305337AB0EA310566 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E20866DA68BBBFCC89674872CFDEF562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6968A00A25D089E3D8D23BD396E9120E;
+			remoteInfo = RESideMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009B93B87782AC58535B0AEC7D3EAAC5 /* Pods-CustomAlertViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomAlertViewDemo-dummy.m"; sourceTree = "<group>"; };
+		08A69DFBE1516FC24A6F010922F8E9E3 /* Pods-CustomAlertViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomAlertViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		24FB9E76ECAD1151F8591F9319957B1D /* Pods-CustomAlertViewDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomAlertViewDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27640F59CBF7E3FFE1E5C94A9178F518 /* Pods-CustomAlertViewDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomAlertViewDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		285AF54549BF1F996EC73EFBD54E98F2 /* Pods-CustomAlertViewDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomAlertViewDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		2EE6D08148AE98B6553EF9721FB4F3AC /* RESideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RESideMenu-dummy.m"; sourceTree = "<group>"; };
+		31C61D4430CC50A434F3282121BA9890 /* Pods-CustomAlertViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomAlertViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E6282F081F4EBD5712CB21DA74C9335 /* Pods-CustomAlertViewDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomAlertViewDemoTests-dummy.m"; sourceTree = "<group>"; };
+		4196050815C44FED541DC51365E32374 /* Pods-CustomAlertViewDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomAlertViewDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45ED5C72231F64A831C63E78EF3B33CF /* Pods-CustomAlertViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomAlertViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4C89622E224947A15030C562F990416B /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = RESideMenu/RECommonFunctions.m; sourceTree = "<group>"; };
+		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C3A56FEBE4CEE6382337F05943CDF6D /* Pods-CustomAlertViewDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomAlertViewDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		640463BAAB258DD24B36BABF99C3B4E6 /* Pods-CustomAlertViewDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomAlertViewDemoTests-resources.sh"; sourceTree = "<group>"; };
+		6B6FDB15172540B3DE8DE1CD8302F8A7 /* RESideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RESideMenu.xcconfig; sourceTree = "<group>"; };
+		736E8EC7453B84A0E82FF8F056FFAF47 /* Pods-CustomAlertViewDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomAlertViewDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		78E4A60F1A167C9E39384672883EC165 /* Pods-CustomAlertViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomAlertViewDemo-resources.sh"; sourceTree = "<group>"; };
+		80CA8B732F5BDFC0EAE884FCB2248340 /* RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RESideMenu.m; path = RESideMenu/RESideMenu.m; sourceTree = "<group>"; };
+		81578034A7B1E40B9EBA575F3999E8C6 /* RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RESideMenu.h; path = RESideMenu/RESideMenu.h; sourceTree = "<group>"; };
+		81A14C937A28AB9E2D12D9C1D32FE988 /* libPods-CustomAlertViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CustomAlertViewDemoTests.a"; path = "libPods-CustomAlertViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D215A434FBA63A0F12B69B5EC44393 /* Pods-CustomAlertViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomAlertViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4DC9B3732C2ADAE686612F8AAD8CD35 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RESideMenu.h"; path = "RESideMenu/UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		A5B085BD521F382BC7DA9644DB4D7602 /* Pods-CustomAlertViewDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomAlertViewDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		A844DF0D46BF4760AC7F1ED4623BA1D1 /* Pods-CustomAlertViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomAlertViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		A8CB16B6C4160656B99345243B6BC62E /* Pods-CustomAlertViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomAlertViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9E1E938CC0D0640DB10524C153AD607 /* Pods-CustomAlertViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomAlertViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBDFCAEF4E28B3CE9CA6272C04DE590D /* libPods-CustomAlertViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CustomAlertViewDemo.a"; path = "libPods-CustomAlertViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD63124D96067838770CA2C59AB2491B /* libPods-CustomAlertViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CustomAlertViewDemoUITests.a"; path = "libPods-CustomAlertViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69415B2CD1F05C8CFD26B20FD986FF1 /* Pods-CustomAlertViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomAlertViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEDAACDE9DD41F23869BA54C19E5897D /* Pods-CustomAlertViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomAlertViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF526EDFD94EE7955BDACB1219734006 /* libRESideMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRESideMenu.a; path = libRESideMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50F47D01F6FC256ADDFE0F54A459E9C /* Pods-CustomAlertViewDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomAlertViewDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED7E9F16B2AA98734172037E463643C9 /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = RESideMenu/RECommonFunctions.h; sourceTree = "<group>"; };
+		F7A754B9269C00782706A436A7C8DD77 /* RESideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESideMenu-prefix.pch"; sourceTree = "<group>"; };
+		F7FD59457AF9B8E39F3893328C540408 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RESideMenu.m"; path = "RESideMenu/UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABDB2978D976C6B00619480679176E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B48B4B955EA0633E4795A954A764ED0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83524619C9EFFFFEB33D6F59F69FEC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679721B14D42C3AC39289C09CF9E0A09 /* Foundation.framework in Frameworks */,
+				DCDF2682508A833D0B516ECBCE66E3C2 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA08E0D2D6A989E2A9B8176274000AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4861B8060B5BB0B78A1F060FD2D59545 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA2287ADE8813BAE4B9512F1DFDC090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99B4BB128FE1FB305337AB0EA310566 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082A79E81B653F4519DDE69A47094AEB /* Pods-CustomAlertViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E50F47D01F6FC256ADDFE0F54A459E9C /* Pods-CustomAlertViewDemoTests-acknowledgements.markdown */,
+				27640F59CBF7E3FFE1E5C94A9178F518 /* Pods-CustomAlertViewDemoTests-acknowledgements.plist */,
+				3E6282F081F4EBD5712CB21DA74C9335 /* Pods-CustomAlertViewDemoTests-dummy.m */,
+				5C3A56FEBE4CEE6382337F05943CDF6D /* Pods-CustomAlertViewDemoTests-frameworks.sh */,
+				640463BAAB258DD24B36BABF99C3B4E6 /* Pods-CustomAlertViewDemoTests-resources.sh */,
+				C69415B2CD1F05C8CFD26B20FD986FF1 /* Pods-CustomAlertViewDemoTests.debug.xcconfig */,
+				A8CB16B6C4160656B99345243B6BC62E /* Pods-CustomAlertViewDemoTests.release.xcconfig */,
+			);
+			name = "Pods-CustomAlertViewDemoTests";
+			path = "Target Support Files/Pods-CustomAlertViewDemoTests";
+			sourceTree = "<group>";
+		};
+		2DAF4501BFC5D05D9C621861E6FDBCB8 /* Pods-CustomAlertViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				31C61D4430CC50A434F3282121BA9890 /* Pods-CustomAlertViewDemo-acknowledgements.markdown */,
+				CEDAACDE9DD41F23869BA54C19E5897D /* Pods-CustomAlertViewDemo-acknowledgements.plist */,
+				009B93B87782AC58535B0AEC7D3EAAC5 /* Pods-CustomAlertViewDemo-dummy.m */,
+				A844DF0D46BF4760AC7F1ED4623BA1D1 /* Pods-CustomAlertViewDemo-frameworks.sh */,
+				78E4A60F1A167C9E39384672883EC165 /* Pods-CustomAlertViewDemo-resources.sh */,
+				08A69DFBE1516FC24A6F010922F8E9E3 /* Pods-CustomAlertViewDemo.debug.xcconfig */,
+				45ED5C72231F64A831C63E78EF3B33CF /* Pods-CustomAlertViewDemo.release.xcconfig */,
+			);
+			name = "Pods-CustomAlertViewDemo";
+			path = "Target Support Files/Pods-CustomAlertViewDemo";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CAC5E507715BCF8A5904F14310E860E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82D22D92FAE7F41E7C15DC141043D76C /* RESideMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5CAC5E507715BCF8A5904F14310E860E /* Pods */,
+				FCE95EE8C248DED183B21493269E7FF0 /* Products */,
+				8DC369F18369ECAA2F240984AFDF6F36 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82D22D92FAE7F41E7C15DC141043D76C /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				ED7E9F16B2AA98734172037E463643C9 /* RECommonFunctions.h */,
+				4C89622E224947A15030C562F990416B /* RECommonFunctions.m */,
+				81578034A7B1E40B9EBA575F3999E8C6 /* RESideMenu.h */,
+				80CA8B732F5BDFC0EAE884FCB2248340 /* RESideMenu.m */,
+				A4DC9B3732C2ADAE686612F8AAD8CD35 /* UIViewController+RESideMenu.h */,
+				F7FD59457AF9B8E39F3893328C540408 /* UIViewController+RESideMenu.m */,
+				C1729E123D8B5CDB85B13E99F84202B9 /* Support Files */,
+			);
+			name = RESideMenu;
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		8DC369F18369ECAA2F240984AFDF6F36 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DAF4501BFC5D05D9C621861E6FDBCB8 /* Pods-CustomAlertViewDemo */,
+				082A79E81B653F4519DDE69A47094AEB /* Pods-CustomAlertViewDemoTests */,
+				B9B2CC97C725B89995913689FCE9D416 /* Pods-CustomAlertViewDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */,
+				FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B9B2CC97C725B89995913689FCE9D416 /* Pods-CustomAlertViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4196050815C44FED541DC51365E32374 /* Pods-CustomAlertViewDemoUITests-acknowledgements.markdown */,
+				24FB9E76ECAD1151F8591F9319957B1D /* Pods-CustomAlertViewDemoUITests-acknowledgements.plist */,
+				A5B085BD521F382BC7DA9644DB4D7602 /* Pods-CustomAlertViewDemoUITests-dummy.m */,
+				736E8EC7453B84A0E82FF8F056FFAF47 /* Pods-CustomAlertViewDemoUITests-frameworks.sh */,
+				285AF54549BF1F996EC73EFBD54E98F2 /* Pods-CustomAlertViewDemoUITests-resources.sh */,
+				87D215A434FBA63A0F12B69B5EC44393 /* Pods-CustomAlertViewDemoUITests.debug.xcconfig */,
+				B9E1E938CC0D0640DB10524C153AD607 /* Pods-CustomAlertViewDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-CustomAlertViewDemoUITests";
+			path = "Target Support Files/Pods-CustomAlertViewDemoUITests";
+			sourceTree = "<group>";
+		};
+		C1729E123D8B5CDB85B13E99F84202B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B6FDB15172540B3DE8DE1CD8302F8A7 /* RESideMenu.xcconfig */,
+				2EE6D08148AE98B6553EF9721FB4F3AC /* RESideMenu-dummy.m */,
+				F7A754B9269C00782706A436A7C8DD77 /* RESideMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RESideMenu";
+			sourceTree = "<group>";
+		};
+		FCE95EE8C248DED183B21493269E7FF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBDFCAEF4E28B3CE9CA6272C04DE590D /* libPods-CustomAlertViewDemo.a */,
+				81A14C937A28AB9E2D12D9C1D32FE988 /* libPods-CustomAlertViewDemoTests.a */,
+				BD63124D96067838770CA2C59AB2491B /* libPods-CustomAlertViewDemoUITests.a */,
+				DF526EDFD94EE7955BDACB1219734006 /* libRESideMenu.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DBB5171DF2DF29F2FD1A3F8031D80925 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C11D787540C45EF745438D16D8E86EC /* RECommonFunctions.h in Headers */,
+				F1EE1187770168F08AAE847E2A3A7B18 /* RESideMenu.h in Headers */,
+				4842A3F02BE9B73C2B0D20C3587125B4 /* UIViewController+RESideMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DB3BB67F8E0D364267855AC40FFBA22 /* Pods-CustomAlertViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184813ACD6C46FC08F214A01924FDD87 /* Build configuration list for PBXNativeTarget "Pods-CustomAlertViewDemoTests" */;
+			buildPhases = (
+				786F043A178630229D56549970646DDE /* Sources */,
+				9AA08E0D2D6A989E2A9B8176274000AA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CustomAlertViewDemoTests";
+			productName = "Pods-CustomAlertViewDemoTests";
+			productReference = 81A14C937A28AB9E2D12D9C1D32FE988 /* libPods-CustomAlertViewDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6968A00A25D089E3D8D23BD396E9120E /* RESideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98739863F608AC920F9B9C61373A9400 /* Build configuration list for PBXNativeTarget "RESideMenu" */;
+			buildPhases = (
+				4E9D385111401170867925D3BC5C6220 /* Sources */,
+				83524619C9EFFFFEB33D6F59F69FEC50 /* Frameworks */,
+				DBB5171DF2DF29F2FD1A3F8031D80925 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RESideMenu;
+			productName = RESideMenu;
+			productReference = DF526EDFD94EE7955BDACB1219734006 /* libRESideMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6A20EBFD68294ED8FCDCF7AAB8F08D8C /* Pods-CustomAlertViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96620452FC47F17B557E87ACAC90EC34 /* Build configuration list for PBXNativeTarget "Pods-CustomAlertViewDemo" */;
+			buildPhases = (
+				E80FABB238CD419B915E1AB3DA995D20 /* Sources */,
+				CDA2287ADE8813BAE4B9512F1DFDC090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5771263296CB1668345BAB6B45969B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomAlertViewDemo";
+			productName = "Pods-CustomAlertViewDemo";
+			productReference = BBDFCAEF4E28B3CE9CA6272C04DE590D /* libPods-CustomAlertViewDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE0DCC453F8B62FE8751BB2FDD0B8F3C /* Pods-CustomAlertViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5582A8B2ECB9874AA52C8E3B606EA946 /* Build configuration list for PBXNativeTarget "Pods-CustomAlertViewDemoUITests" */;
+			buildPhases = (
+				67492910218738975DDAC9E038BF2EEA /* Sources */,
+				6ABDB2978D976C6B00619480679176E7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CustomAlertViewDemoUITests";
+			productName = "Pods-CustomAlertViewDemoUITests";
+			productReference = BD63124D96067838770CA2C59AB2491B /* libPods-CustomAlertViewDemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FCE95EE8C248DED183B21493269E7FF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A20EBFD68294ED8FCDCF7AAB8F08D8C /* Pods-CustomAlertViewDemo */,
+				0DB3BB67F8E0D364267855AC40FFBA22 /* Pods-CustomAlertViewDemoTests */,
+				FE0DCC453F8B62FE8751BB2FDD0B8F3C /* Pods-CustomAlertViewDemoUITests */,
+				6968A00A25D089E3D8D23BD396E9120E /* RESideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E9D385111401170867925D3BC5C6220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5148BF971F00EE9CC819DDBA2407E0 /* RECommonFunctions.m in Sources */,
+				6460D49FA2724B3FA74CB339F2499AB0 /* RESideMenu-dummy.m in Sources */,
+				5BF72038E168D525430A0714EEA2F012 /* RESideMenu.m in Sources */,
+				2977FC474CC1DBA839151F84C9D50B00 /* UIViewController+RESideMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67492910218738975DDAC9E038BF2EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0EF2D68D0CD56CF6A9360A99D0306F /* Pods-CustomAlertViewDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786F043A178630229D56549970646DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				508DF75C4ED25429B5E3561801CE9D4A /* Pods-CustomAlertViewDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80FABB238CD419B915E1AB3DA995D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B9315890BDEB9652F24C088204D879 /* Pods-CustomAlertViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5771263296CB1668345BAB6B45969B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RESideMenu;
+			target = 6968A00A25D089E3D8D23BD396E9120E /* RESideMenu */;
+			targetProxy = E20866DA68BBBFCC89674872CFDEF562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		297D735ED4F29A048CD5D4E0E292C3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D215A434FBA63A0F12B69B5EC44393 /* Pods-CustomAlertViewDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		621057EA0865E8AE3369DBC8624ADA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B6FDB15172540B3DE8DE1CD8302F8A7 /* RESideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RESideMenu/RESideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8096ED7366EC60CF2D0A345C0AF9375A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CB16B6C4160656B99345243B6BC62E /* Pods-CustomAlertViewDemoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		85C080649149F3610644048DDC458A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B6FDB15172540B3DE8DE1CD8302F8A7 /* RESideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RESideMenu/RESideMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		C27AF13ADD3B61C4D349D4E4733DFB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69415B2CD1F05C8CFD26B20FD986FF1 /* Pods-CustomAlertViewDemoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CE863B96215DBA015164C8E1762468DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45ED5C72231F64A831C63E78EF3B33CF /* Pods-CustomAlertViewDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DC15568EABB14D558686824D9B1614EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E1E938CC0D0640DB10524C153AD607 /* Pods-CustomAlertViewDemoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EA3EC9AE50675B92E11C6D0CD3A473F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A69DFBE1516FC24A6F010922F8E9E3 /* Pods-CustomAlertViewDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184813ACD6C46FC08F214A01924FDD87 /* Build configuration list for PBXNativeTarget "Pods-CustomAlertViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27AF13ADD3B61C4D349D4E4733DFB6F /* Debug */,
+				8096ED7366EC60CF2D0A345C0AF9375A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5582A8B2ECB9874AA52C8E3B606EA946 /* Build configuration list for PBXNativeTarget "Pods-CustomAlertViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297D735ED4F29A048CD5D4E0E292C3B1 /* Debug */,
+				DC15568EABB14D558686824D9B1614EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96620452FC47F17B557E87ACAC90EC34 /* Build configuration list for PBXNativeTarget "Pods-CustomAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3EC9AE50675B92E11C6D0CD3A473F6 /* Debug */,
+				CE863B96215DBA015164C8E1762468DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98739863F608AC920F9B9C61373A9400 /* Build configuration list for PBXNativeTarget "RESideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C080649149F3610644048DDC458A0A /* Debug */,
+				621057EA0865E8AE3369DBC8624ADA5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
