@@ -5,7 +5,7 @@
 
 http://www.cnblogs.com/pengsi/
 
-暂时只是对项目中使用到知识点和自己遇到的疑难点进行了介绍,后面会进行总体的介绍,方便大家的学习.
+暂时只是对自己工作中遇到的问题和学习的内容进行了总结和记录,后面会持续更新,方便我们一起学习和进步.
 
 **## **声明
 
@@ -22,9 +22,10 @@ http://www.cnblogs.com/pengsi/
 
 **## **截图
 
-![image](https://github.com/lovemo/SMKDropSelectMenu/raw/master/demo.gif)
-![image](https://github.com/lovemo/SMKDropSelectMenu/raw/master/demo.gif)
-![image](https://github.com/lovemo/SMKDropSelectMenu/raw/master/demo.gif)
+![image](https://github.com/PengSiSi/CustomDemo/blob/master/ScreenShots/Simulator%20Screen%20Shot%202017年9月8日%20下午1.47.49.png)
+![image](https://github.com/PengSiSi/CustomDemo/blob/master/ScreenShots/Simulator%20Screen%20Shot%202017年9月8日%20下午1.47.51.png)
+![image](https://github.com/PengSiSi/CustomDemo/blob/master/ScreenShots/Simulator%20Screen%20Shot%202017年9月8日%20下午1.47.54.png)
+![image](https://github.com/PengSiSi/CustomDemo/blob/master/ScreenShots/Simulator%20Screen%20Shot%202017年9月8日%20下午1.48.01.png)
 
 
 **## **期待
