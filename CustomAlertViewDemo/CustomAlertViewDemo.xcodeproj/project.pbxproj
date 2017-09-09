@@ -26,6 +26,8 @@
 		F13FCE1E1F5FF8EE004D6E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13FCE1C1F5FF8EE004D6E20 /* LaunchScreen.storyboard */; };
 		F13FCE291F5FF8EF004D6E20 /* CustomAlertViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FCE281F5FF8EF004D6E20 /* CustomAlertViewDemoTests.m */; };
 		F13FCE341F5FF8EF004D6E20 /* CustomAlertViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FCE331F5FF8EF004D6E20 /* CustomAlertViewDemoUITests.m */; };
+		F1B16A691F638F7400A72F83 /* YCXMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B16A661F638F7400A72F83 /* YCXMenu.m */; };
+		F1B16A6A1F638F7400A72F83 /* YCXMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B16A681F638F7400A72F83 /* YCXMenuItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,10 @@
 		F13FCE2F1F5FF8EF004D6E20 /* CustomAlertViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAlertViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13FCE331F5FF8EF004D6E20 /* CustomAlertViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertViewDemoUITests.m; sourceTree = "<group>"; };
 		F13FCE351F5FF8EF004D6E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B16A651F638F7400A72F83 /* YCXMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCXMenu.h; sourceTree = "<group>"; };
+		F1B16A661F638F7400A72F83 /* YCXMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCXMenu.m; sourceTree = "<group>"; };
+		F1B16A671F638F7400A72F83 /* YCXMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCXMenuItem.h; sourceTree = "<group>"; };
+		F1B16A681F638F7400A72F83 /* YCXMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCXMenuItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +243,7 @@
 				F10CD39F1F6264D6000F352D /* CustomSlideDemo */,
 				F10CD3AB1F6270EB000F352D /* CellSwipeOutDemo */,
 				F10CD3B31F629036000F352D /* InputAccessoryViewDemo */,
+				F1B16A641F638F7400A72F83 /* YCXMenu */,
 				F13FCE111F5FF8EE004D6E20 /* AppDelegate.h */,
 				F13FCE121F5FF8EE004D6E20 /* AppDelegate.m */,
 				F13FCE141F5FF8EE004D6E20 /* ViewController.h */,
@@ -274,6 +281,17 @@
 				F13FCE351F5FF8EF004D6E20 /* Info.plist */,
 			);
 			path = CustomAlertViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		F1B16A641F638F7400A72F83 /* YCXMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F1B16A651F638F7400A72F83 /* YCXMenu.h */,
+				F1B16A661F638F7400A72F83 /* YCXMenu.m */,
+				F1B16A671F638F7400A72F83 /* YCXMenuItem.h */,
+				F1B16A681F638F7400A72F83 /* YCXMenuItem.m */,
+			);
+			path = YCXMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -560,10 +578,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F10CD3A51F6264D6000F352D /* DropSelectMenu.m in Sources */,
+				F1B16A6A1F638F7400A72F83 /* YCXMenuItem.m in Sources */,
 				F10CD3A91F6264D6000F352D /* FilterViewController.m in Sources */,
 				F10CD3A81F6264D6000F352D /* CustomSlideViewController.m in Sources */,
 				F10CD3A61F6264D6000F352D /* TitlebackgroundView.m in Sources */,
 				F10CD3A71F6264D6000F352D /* DropSelectMenuViewController.m in Sources */,
+				F1B16A691F638F7400A72F83 /* YCXMenu.m in Sources */,
 				F10CD3B61F629069000F352D /* InputAccessoryViewController.m in Sources */,
 				F13FCE161F5FF8EE004D6E20 /* ViewController.m in Sources */,
 				F13FCE131F5FF8EE004D6E20 /* AppDelegate.m in Sources */,

@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -59,10 +60,18 @@
                                     <action selector="InputAccessoryViewDemo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4FH-CL-TCH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFh-GB-0qb">
+                                <rect key="frame" x="16" y="72" width="31" height="30"/>
+                                <state key="normal" title="弹出"/>
+                                <connections>
+                                    <action selector="DropMenuAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ftP-cz-AHn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="dnU-RP-HOh" firstAttribute="top" secondItem="e4G-jz-0X3" secondAttribute="bottom" constant="36.5" id="5Ty-H5-mZt"/>
+                            <constraint firstItem="RFh-GB-0qb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="6NO-cO-4sC"/>
                             <constraint firstItem="5yQ-qm-pyr" firstAttribute="top" secondItem="qtD-4w-iQI" secondAttribute="bottom" constant="48" id="ARx-Xi-M1K"/>
                             <constraint firstItem="tge-0h-bpH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ad6-cs-JtR"/>
                             <constraint firstItem="qtD-4w-iQI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JXb-Qy-5a1"/>
@@ -71,10 +80,14 @@
                             <constraint firstItem="e4G-jz-0X3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aeN-Tm-ZEk"/>
                             <constraint firstItem="5yQ-qm-pyr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eFk-l6-YHb"/>
                             <constraint firstItem="dnU-RP-HOh" firstAttribute="centerX" secondItem="e4G-jz-0X3" secondAttribute="centerX" constant="-2" id="hhP-Md-BkQ"/>
+                            <constraint firstItem="RFh-GB-0qb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hw8-nM-hZh"/>
                             <constraint firstItem="e4G-jz-0X3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vrm-GF-zcI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Demo" id="7Gb-KK-FPB"/>
+                    <connections>
+                        <outlet property="dropMenuButton" destination="RFh-GB-0qb" id="HgB-UG-n6z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -13,6 +13,7 @@
 #import "DropSelectMenuViewController.h"
 #import "CellSwipeOutViewController.h"
 #import "InputAccessoryViewController.h"
+#import "YCXMenu.h"
 
 #import <RESideMenu.h>
 
@@ -25,6 +26,8 @@
 @property (nonatomic, weak) UIView *upView;
 @property (nonatomic, strong) UIWindow *window;
 @property (nonatomic, strong) FilterViewController *slidebarVC;
+@property (weak, nonatomic) IBOutlet UIButton *dropMenuButton;
+@property (nonatomic , strong) NSMutableArray *items;
 
 @end
 
@@ -160,5 +163,44 @@
      [self.navigationController pushViewController:[InputAccessoryViewController new] animated:YES];
 }
 
+#pragma mark - setter/getter
+- (NSMutableArray *)items {
+    if (!_items) {
+        
+        // set title
+        YCXMenuItem *menuTitle = [YCXMenuItem menuTitle:@"Menu" WithIcon:nil];
+        menuTitle.foreColor = [UIColor whiteColor];
+        menuTitle.titleFont = [UIFont boldSystemFontOfSize:20.0f];
+        
+        //set item
+        _items = [@[
+                    [YCXMenuItem menuItem:@"全部"
+                                    image:nil
+                                      tag:100
+                                 userInfo:@{@"title":@"Menu"}],
+                    [YCXMenuItem menuItem:@"未发布"
+                                    image:nil
+                                      tag:101
+                                 userInfo:@{@"title":@"Menu"}],
+                    [YCXMenuItem menuItem:@"已发布"
+                                    image:nil
+                                      tag:102
+                                 userInfo:@{@"title":@"Menu"}],
+                    ] mutableCopy];
+    }
+    return _items;
+}
+
+- (IBAction)DropMenuAction:(id)sender {
+    
+    // 显示默认样式的Menu
+    if ([sender isKindOfClass:[UIButton class]]) {
+        UIButton *btn = sender;
+        [YCXMenu setTintColor:[UIColor lightGrayColor]];
+        [YCXMenu showMenuInView:self.view fromRect:btn.frame menuItems:self.items selected:^(NSInteger index, YCXMenuItem *item) {
+            NSLog(@"%@",item);
+        }];
+    }
+}
 
 @end
