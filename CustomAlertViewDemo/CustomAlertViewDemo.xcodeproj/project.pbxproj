@@ -17,6 +17,7 @@
 		F10CD3A81F6264D6000F352D /* CustomSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD3A11F6264D6000F352D /* CustomSlideViewController.m */; };
 		F10CD3A91F6264D6000F352D /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD3A31F6264D6000F352D /* FilterViewController.m */; };
 		F10CD3AE1F627102000F352D /* CellSwipeOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD3AD1F627102000F352D /* CellSwipeOutViewController.m */; };
+		F10CD3B61F629069000F352D /* InputAccessoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10CD3B51F629069000F352D /* InputAccessoryViewController.m */; };
 		F13FCE101F5FF8EE004D6E20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FCE0F1F5FF8EE004D6E20 /* main.m */; };
 		F13FCE131F5FF8EE004D6E20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FCE121F5FF8EE004D6E20 /* AppDelegate.m */; };
 		F13FCE161F5FF8EE004D6E20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FCE151F5FF8EE004D6E20 /* ViewController.m */; };
@@ -68,6 +69,8 @@
 		F10CD3A31F6264D6000F352D /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
 		F10CD3AC1F627102000F352D /* CellSwipeOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellSwipeOutViewController.h; sourceTree = "<group>"; };
 		F10CD3AD1F627102000F352D /* CellSwipeOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellSwipeOutViewController.m; sourceTree = "<group>"; };
+		F10CD3B41F629069000F352D /* InputAccessoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputAccessoryViewController.h; sourceTree = "<group>"; };
+		F10CD3B51F629069000F352D /* InputAccessoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputAccessoryViewController.m; sourceTree = "<group>"; };
 		F13FCE0B1F5FF8EE004D6E20 /* CustomAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13FCE0F1F5FF8EE004D6E20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F13FCE111F5FF8EE004D6E20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -189,10 +192,27 @@
 		F10CD3AB1F6270EB000F352D /* CellSwipeOutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F10CD3B21F629030000F352D /* InputAccessoryViewDemo */,
 				F10CD3AC1F627102000F352D /* CellSwipeOutViewController.h */,
 				F10CD3AD1F627102000F352D /* CellSwipeOutViewController.m */,
 			);
 			path = CellSwipeOutDemo;
+			sourceTree = "<group>";
+		};
+		F10CD3B21F629030000F352D /* InputAccessoryViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InputAccessoryViewDemo;
+			sourceTree = "<group>";
+		};
+		F10CD3B31F629036000F352D /* InputAccessoryViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F10CD3B41F629069000F352D /* InputAccessoryViewController.h */,
+				F10CD3B51F629069000F352D /* InputAccessoryViewController.m */,
+			);
+			path = InputAccessoryViewDemo;
 			sourceTree = "<group>";
 		};
 		F13FCE021F5FF8EE004D6E20 = {
@@ -224,6 +244,7 @@
 				F10CD3971F6264D6000F352D /* CustomDropSelectMenuDemo */,
 				F10CD39F1F6264D6000F352D /* CustomSlideDemo */,
 				F10CD3AB1F6270EB000F352D /* CellSwipeOutDemo */,
+				F10CD3B31F629036000F352D /* InputAccessoryViewDemo */,
 				F13FCE111F5FF8EE004D6E20 /* AppDelegate.h */,
 				F13FCE121F5FF8EE004D6E20 /* AppDelegate.m */,
 				F13FCE141F5FF8EE004D6E20 /* ViewController.h */,
@@ -551,6 +572,7 @@
 				F10CD3A81F6264D6000F352D /* CustomSlideViewController.m in Sources */,
 				F10CD3A61F6264D6000F352D /* TitlebackgroundView.m in Sources */,
 				F10CD3A71F6264D6000F352D /* DropSelectMenuViewController.m in Sources */,
+				F10CD3B61F629069000F352D /* InputAccessoryViewController.m in Sources */,
 				F13FCE161F5FF8EE004D6E20 /* ViewController.m in Sources */,
 				F13FCE131F5FF8EE004D6E20 /* AppDelegate.m in Sources */,
 				F10CD3A41F6264D6000F352D /* CustomAlertView.m in Sources */,

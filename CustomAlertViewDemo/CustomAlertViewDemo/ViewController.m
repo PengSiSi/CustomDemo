@@ -12,6 +12,7 @@
 #import "FilterViewController.h"
 #import "DropSelectMenuViewController.h"
 #import "CellSwipeOutViewController.h"
+#import "InputAccessoryViewController.h"
 
 #import <RESideMenu.h>
 
@@ -153,5 +154,11 @@
     
     [self.navigationController pushViewController:[CellSwipeOutViewController new] animated:YES];
 }
+
+- (IBAction)InputAccessoryViewDemo:(id)sender {
+    
+     [self.navigationController pushViewController:[InputAccessoryViewController new] animated:YES];
+}
+
 
 @end

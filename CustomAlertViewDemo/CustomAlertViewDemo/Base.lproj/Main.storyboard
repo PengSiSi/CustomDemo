@@ -52,13 +52,22 @@
                                     <action selector="CellSwipeOutDemo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PkL-tJ-lgW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tge-0h-bpH">
+                                <rect key="frame" x="97.5" y="595" width="180" height="30"/>
+                                <state key="normal" title="InputAccessoryViewDemo"/>
+                                <connections>
+                                    <action selector="InputAccessoryViewDemo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4FH-CL-TCH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="dnU-RP-HOh" firstAttribute="top" secondItem="e4G-jz-0X3" secondAttribute="bottom" constant="36.5" id="5Ty-H5-mZt"/>
                             <constraint firstItem="5yQ-qm-pyr" firstAttribute="top" secondItem="qtD-4w-iQI" secondAttribute="bottom" constant="48" id="ARx-Xi-M1K"/>
+                            <constraint firstItem="tge-0h-bpH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ad6-cs-JtR"/>
                             <constraint firstItem="qtD-4w-iQI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JXb-Qy-5a1"/>
                             <constraint firstItem="qtD-4w-iQI" firstAttribute="top" secondItem="dnU-RP-HOh" secondAttribute="bottom" constant="57" id="LBQ-yQ-YHz"/>
+                            <constraint firstItem="tge-0h-bpH" firstAttribute="top" secondItem="5yQ-qm-pyr" secondAttribute="bottom" constant="15" id="UUS-zU-Au8"/>
                             <constraint firstItem="e4G-jz-0X3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aeN-Tm-ZEk"/>
                             <constraint firstItem="5yQ-qm-pyr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eFk-l6-YHb"/>
                             <constraint firstItem="dnU-RP-HOh" firstAttribute="centerX" secondItem="e4G-jz-0X3" secondAttribute="centerX" constant="-2" id="hhP-Md-BkQ"/>
