@@ -192,18 +192,10 @@
 		F10CD3AB1F6270EB000F352D /* CellSwipeOutDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F10CD3B21F629030000F352D /* InputAccessoryViewDemo */,
 				F10CD3AC1F627102000F352D /* CellSwipeOutViewController.h */,
 				F10CD3AD1F627102000F352D /* CellSwipeOutViewController.m */,
 			);
 			path = CellSwipeOutDemo;
-			sourceTree = "<group>";
-		};
-		F10CD3B21F629030000F352D /* InputAccessoryViewDemo */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = InputAccessoryViewDemo;
 			sourceTree = "<group>";
 		};
 		F10CD3B31F629036000F352D /* InputAccessoryViewDemo */ = {

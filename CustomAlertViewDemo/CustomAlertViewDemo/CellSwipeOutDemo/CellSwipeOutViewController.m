@@ -7,10 +7,12 @@
 //
 
 #import "CellSwipeOutViewController.h"
+#import <Masonry.h>
 
 @interface CellSwipeOutViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
+@property (strong, nonatomic) UIButton *addButton/**< 新增按钮*/;
 
 @end
 
@@ -21,6 +23,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     [self setUI];
+    [self createAddButton];
 }
 
 #pragma mark - 设置界面
@@ -37,6 +40,34 @@
     [self.view addSubview: self.tableView];
 }
 
+- (void)createAddButton {
+    _addButton = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [_addButton setBackgroundImage:[UIImage imageNamed:@"contacts_gobacktofront"] forState:UIControlStateNormal];
+    _addButton.backgroundColor = [UIColor greenColor];
+    [_addButton addTarget:self action:@selector(addAction:) forControlEvents:UIControlEventTouchUpInside];
+    _addButton.hidden = YES;
+    [self.view addSubview:_addButton];
+    [_addButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.right.equalTo(self.view).offset(-20);
+        make.bottom.equalTo(self.view).offset(-30);
+        make.size.mas_equalTo(CGSizeMake(44, 44));
+    }];
+}
+
+- (void)addAction: (UIButton *)button {
+    
+}
+
+#pragma mark - 获取tableview的位置
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    
+    if (scrollView.contentOffset.y > self.view.frame.size.height) {
+        _addButton.hidden = NO;
+    } else {
+        _addButton.hidden = YES;
+    }
+}
+
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -46,7 +77,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 20;
+    return 40;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
