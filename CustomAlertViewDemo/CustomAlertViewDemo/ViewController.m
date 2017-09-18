@@ -14,6 +14,7 @@
 #import "CellSwipeOutViewController.h"
 #import "InputAccessoryViewController.h"
 #import "YCXMenu.h"
+#import "CustomButtonDemoViewController.h"
 
 #import <RESideMenu.h>
 
@@ -201,6 +202,12 @@
             NSLog(@"%@",item);
         }];
     }
+}
+
+- (IBAction)pushCustomButtonDemoPage:(id)sender {
+    
+    CustomButtonDemoViewController *buttonDemo = [[CustomButtonDemoViewController alloc]init];
+    [self.navigationController pushViewController:buttonDemo animated:YES];
 }
 
 @end

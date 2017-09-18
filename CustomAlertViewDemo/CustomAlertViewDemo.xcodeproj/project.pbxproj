@@ -26,6 +26,9 @@
 		F13FCE1E1F5FF8EE004D6E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13FCE1C1F5FF8EE004D6E20 /* LaunchScreen.storyboard */; };
 		F13FCE291F5FF8EF004D6E20 /* CustomAlertViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FCE281F5FF8EF004D6E20 /* CustomAlertViewDemoTests.m */; };
 		F13FCE341F5FF8EF004D6E20 /* CustomAlertViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FCE331F5FF8EF004D6E20 /* CustomAlertViewDemoUITests.m */; };
+		F16F2F2E1F6FB87A00411BC6 /* CustomButtonDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F2F2D1F6FB87A00411BC6 /* CustomButtonDemoViewController.m */; };
+		F16F2F311F6FB8B300411BC6 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F2F301F6FB8B300411BC6 /* CustomButton.m */; };
+		F16F2F341F6FB8EA00411BC6 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F2F331F6FB8EA00411BC6 /* UIViewExt.m */; };
 		F1B16A691F638F7400A72F83 /* YCXMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B16A661F638F7400A72F83 /* YCXMenu.m */; };
 		F1B16A6A1F638F7400A72F83 /* YCXMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B16A681F638F7400A72F83 /* YCXMenuItem.m */; };
 /* End PBXBuildFile section */
@@ -89,6 +92,12 @@
 		F13FCE2F1F5FF8EF004D6E20 /* CustomAlertViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAlertViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13FCE331F5FF8EF004D6E20 /* CustomAlertViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertViewDemoUITests.m; sourceTree = "<group>"; };
 		F13FCE351F5FF8EF004D6E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16F2F2C1F6FB87A00411BC6 /* CustomButtonDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButtonDemoViewController.h; sourceTree = "<group>"; };
+		F16F2F2D1F6FB87A00411BC6 /* CustomButtonDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButtonDemoViewController.m; sourceTree = "<group>"; };
+		F16F2F2F1F6FB8B300411BC6 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		F16F2F301F6FB8B300411BC6 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		F16F2F321F6FB8EA00411BC6 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		F16F2F331F6FB8EA00411BC6 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		F1B16A651F638F7400A72F83 /* YCXMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCXMenu.h; sourceTree = "<group>"; };
 		F1B16A661F638F7400A72F83 /* YCXMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCXMenu.m; sourceTree = "<group>"; };
 		F1B16A671F638F7400A72F83 /* YCXMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCXMenuItem.h; sourceTree = "<group>"; };
@@ -216,6 +225,7 @@
 		F13FCE021F5FF8EE004D6E20 = {
 			isa = PBXGroup;
 			children = (
+				F16F2F271F6FB80200411BC6 /* CustomButtonDemo */,
 				F13FCE0D1F5FF8EE004D6E20 /* CustomAlertViewDemo */,
 				F13FCE271F5FF8EF004D6E20 /* CustomAlertViewDemoTests */,
 				F13FCE321F5FF8EF004D6E20 /* CustomAlertViewDemoUITests */,
@@ -281,6 +291,28 @@
 				F13FCE351F5FF8EF004D6E20 /* Info.plist */,
 			);
 			path = CustomAlertViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		F16F2F271F6FB80200411BC6 /* CustomButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F16F2F281F6FB81000411BC6 /* CustomButton */,
+				F16F2F2C1F6FB87A00411BC6 /* CustomButtonDemoViewController.h */,
+				F16F2F2D1F6FB87A00411BC6 /* CustomButtonDemoViewController.m */,
+			);
+			name = CustomButtonDemo;
+			path = CustomAlertViewDemo/CustomButtonDemo;
+			sourceTree = "<group>";
+		};
+		F16F2F281F6FB81000411BC6 /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				F16F2F321F6FB8EA00411BC6 /* UIViewExt.h */,
+				F16F2F331F6FB8EA00411BC6 /* UIViewExt.m */,
+				F16F2F2F1F6FB8B300411BC6 /* CustomButton.h */,
+				F16F2F301F6FB8B300411BC6 /* CustomButton.m */,
+			);
+			path = CustomButton;
 			sourceTree = "<group>";
 		};
 		F1B16A641F638F7400A72F83 /* YCXMenu */ = {
@@ -577,11 +609,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16F2F341F6FB8EA00411BC6 /* UIViewExt.m in Sources */,
 				F10CD3A51F6264D6000F352D /* DropSelectMenu.m in Sources */,
 				F1B16A6A1F638F7400A72F83 /* YCXMenuItem.m in Sources */,
+				F16F2F2E1F6FB87A00411BC6 /* CustomButtonDemoViewController.m in Sources */,
 				F10CD3A91F6264D6000F352D /* FilterViewController.m in Sources */,
 				F10CD3A81F6264D6000F352D /* CustomSlideViewController.m in Sources */,
 				F10CD3A61F6264D6000F352D /* TitlebackgroundView.m in Sources */,
+				F16F2F311F6FB8B300411BC6 /* CustomButton.m in Sources */,
 				F10CD3A71F6264D6000F352D /* DropSelectMenuViewController.m in Sources */,
 				F1B16A691F638F7400A72F83 /* YCXMenu.m in Sources */,
 				F10CD3B61F629069000F352D /* InputAccessoryViewController.m in Sources */,

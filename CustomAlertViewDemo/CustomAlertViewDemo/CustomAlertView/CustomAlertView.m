@@ -52,14 +52,12 @@ CGFloat buttonSpacerHeight = 0;
 }
 
 // 设置子布局
-- (void)addContentView: (UIView *)contentView
-{
+- (void)addContentView: (UIView *)contentView {
     _containerView = contentView;
 }
 
 // 创建并显示提示AlertView
-- (void)show
-{
+- (void)show {
     // 创建提示视图
     _dialogView = [self createContainerView];
     
@@ -122,8 +120,7 @@ CGFloat buttonSpacerHeight = 0;
 }
 
 // 创建提示视图
-- (UIView *)createContainerView
-{
+- (UIView *)createContainerView {
     if (!_containerView) {
         _containerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 300, 150)];
     }
@@ -184,8 +181,7 @@ CGFloat buttonSpacerHeight = 0;
 }
 
 // 添加按钮
-- (void)addButtonsToView: (UIView *)container
-{
+- (void)addButtonsToView: (UIView *)container {
     if (!_buttonTitles) {
         return;
     }
@@ -218,21 +214,18 @@ CGFloat buttonSpacerHeight = 0;
 }
 
 // 按钮点击
-- (void)buttonClickHandle:(id)sender
-{
+- (void)buttonClickHandle:(id)sender {
     if (_onButtonClickHandle) {
         _onButtonClickHandle(self, [sender tag]);
     }
 }
 
-- (void)setOnClickListerner:(OnButtonClickHandle)onButtonClickHandle
-{
+- (void)setOnClickListerner:(OnButtonClickHandle)onButtonClickHandle {
     _onButtonClickHandle = onButtonClickHandle;
 }
 
 // 关闭AlertView并移除
-- (void)dismiss
-{
+- (void)dismiss {
     CATransform3D currentTransform = _dialogView.layer.transform;
     
     if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_7_1) {
@@ -260,8 +253,7 @@ CGFloat buttonSpacerHeight = 0;
 }
 
 // 得到提示视图的size
-- (CGSize)countDialogSize
-{
+- (CGSize)countDialogSize {
     CGFloat dialogWidth = _containerView.frame.size.width;
     CGFloat dialogHeight = _containerView.frame.size.height + buttonHeight + buttonSpacerHeight;
     
@@ -269,8 +261,7 @@ CGFloat buttonSpacerHeight = 0;
 }
 
 // 得到屏幕的size
-- (CGSize)countScreenSize
-{
+- (CGSize)countScreenSize {
     if (_buttonTitles && [_buttonTitles count] > 0) {
         buttonHeight       = kAlertViewDefaultButtonHeight;
         buttonSpacerHeight = kAlertViewDefaultButtonSpacerHeight;
@@ -296,8 +287,7 @@ CGFloat buttonSpacerHeight = 0;
 }
 
 // 设备旋转
-- (void)deviceOrientationDidChange: (NSNotification *)notification
-{
+- (void)deviceOrientationDidChange: (NSNotification *)notification {
     if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_7_1) {
         [self changeOrientationForIOS7];
     } else {
@@ -396,8 +386,7 @@ CGFloat buttonSpacerHeight = 0;
      ];
 }
 
-- (void)dealloc
-{
+- (void)dealloc {
     [[UIDevice currentDevice] endGeneratingDeviceOrientationNotifications];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIDeviceOrientationDidChangeNotification object:nil];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
