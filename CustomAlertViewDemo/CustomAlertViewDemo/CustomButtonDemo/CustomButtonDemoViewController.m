@@ -8,6 +8,8 @@
 
 #import "CustomButtonDemoViewController.h"
 #import "CustomButton.h"
+#import "UIButton+ImagePosition.h"
+#import "UIButton+Event.h"
 
 @interface CustomButtonDemoViewController ()
 
@@ -42,7 +44,22 @@
         //    [changeButton addTarget:self action:@selector(changeAction:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:changeButton];
     }
+    
+    UIButton *changeButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    changeButton.backgroundColor = [UIColor redColor];
+    [changeButton setTitle:@"思思" forState:UIControlStateNormal];
+    [changeButton setImage:[UIImage imageNamed:@"ic_arrow_down"] forState:UIControlStateNormal];
+    [changeButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    changeButton.frame = CGRectMake(100, 500, 150, 40);
+    changeButton.titleLabel.textAlignment = NSTextAlignmentLeft;
+    [self.view addSubview:changeButton];
+    [changeButton addTarget:self action:@selector(didClick) forControlEvents:UIControlEventTouchUpInside];
+    [changeButton imagePositionStyle:ImagePositionStyleBottom spacing:4];
+    changeButton.SG_timeInterval = 2;
 }
 
-
+- (void)didClick {
+    
+    NSLog(@"连续点击啊");
+}
 @end

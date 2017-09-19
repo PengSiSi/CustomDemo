@@ -26,6 +26,8 @@
 		F13FCE1E1F5FF8EE004D6E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13FCE1C1F5FF8EE004D6E20 /* LaunchScreen.storyboard */; };
 		F13FCE291F5FF8EF004D6E20 /* CustomAlertViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FCE281F5FF8EF004D6E20 /* CustomAlertViewDemoTests.m */; };
 		F13FCE341F5FF8EF004D6E20 /* CustomAlertViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13FCE331F5FF8EF004D6E20 /* CustomAlertViewDemoUITests.m */; };
+		F15C88BB1F70967000A76A5B /* UIButton+ImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = F15C88BA1F70967000A76A5B /* UIButton+ImagePosition.m */; };
+		F15C88BE1F7098E400A76A5B /* UIButton+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = F15C88BD1F7098E400A76A5B /* UIButton+Event.m */; };
 		F16F2F2E1F6FB87A00411BC6 /* CustomButtonDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F2F2D1F6FB87A00411BC6 /* CustomButtonDemoViewController.m */; };
 		F16F2F311F6FB8B300411BC6 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F2F301F6FB8B300411BC6 /* CustomButton.m */; };
 		F16F2F341F6FB8EA00411BC6 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F16F2F331F6FB8EA00411BC6 /* UIViewExt.m */; };
@@ -92,6 +94,10 @@
 		F13FCE2F1F5FF8EF004D6E20 /* CustomAlertViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAlertViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13FCE331F5FF8EF004D6E20 /* CustomAlertViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertViewDemoUITests.m; sourceTree = "<group>"; };
 		F13FCE351F5FF8EF004D6E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15C88B91F70967000A76A5B /* UIButton+ImagePosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImagePosition.h"; sourceTree = "<group>"; };
+		F15C88BA1F70967000A76A5B /* UIButton+ImagePosition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImagePosition.m"; sourceTree = "<group>"; };
+		F15C88BC1F7098E400A76A5B /* UIButton+Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Event.h"; sourceTree = "<group>"; };
+		F15C88BD1F7098E400A76A5B /* UIButton+Event.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Event.m"; sourceTree = "<group>"; };
 		F16F2F2C1F6FB87A00411BC6 /* CustomButtonDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButtonDemoViewController.h; sourceTree = "<group>"; };
 		F16F2F2D1F6FB87A00411BC6 /* CustomButtonDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButtonDemoViewController.m; sourceTree = "<group>"; };
 		F16F2F2F1F6FB8B300411BC6 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
@@ -311,6 +317,10 @@
 				F16F2F331F6FB8EA00411BC6 /* UIViewExt.m */,
 				F16F2F2F1F6FB8B300411BC6 /* CustomButton.h */,
 				F16F2F301F6FB8B300411BC6 /* CustomButton.m */,
+				F15C88B91F70967000A76A5B /* UIButton+ImagePosition.h */,
+				F15C88BA1F70967000A76A5B /* UIButton+ImagePosition.m */,
+				F15C88BC1F7098E400A76A5B /* UIButton+Event.h */,
+				F15C88BD1F7098E400A76A5B /* UIButton+Event.m */,
 			);
 			path = CustomButton;
 			sourceTree = "<group>";
@@ -617,9 +627,11 @@
 				F10CD3A81F6264D6000F352D /* CustomSlideViewController.m in Sources */,
 				F10CD3A61F6264D6000F352D /* TitlebackgroundView.m in Sources */,
 				F16F2F311F6FB8B300411BC6 /* CustomButton.m in Sources */,
+				F15C88BE1F7098E400A76A5B /* UIButton+Event.m in Sources */,
 				F10CD3A71F6264D6000F352D /* DropSelectMenuViewController.m in Sources */,
 				F1B16A691F638F7400A72F83 /* YCXMenu.m in Sources */,
 				F10CD3B61F629069000F352D /* InputAccessoryViewController.m in Sources */,
+				F15C88BB1F70967000A76A5B /* UIButton+ImagePosition.m in Sources */,
 				F13FCE161F5FF8EE004D6E20 /* ViewController.m in Sources */,
 				F13FCE131F5FF8EE004D6E20 /* AppDelegate.m in Sources */,
 				F10CD3A41F6264D6000F352D /* CustomAlertView.m in Sources */,
